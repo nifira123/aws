@@ -29,15 +29,15 @@ apt-get install screen -y
 clear
 cd
 # Check Script
-if [[ ! -e /etc/v2ray ]]; then
-    echo -e "${red}        Auto-Script already installed${NC}"
-    echo -e "${red}Make sure to install this script on a fresh vps only${NC}"
-    echo -e "${red}      to avoid problems when installing${NC}"
-    sleep 5
-    exit 1
-else
-    mkdir /etc/v2ray
-fi
+# if [[ ! -e /etc/v2ray ]]; then
+#     echo -e "${red}        Auto-Script already installed${NC}"
+#     echo -e "${red}Make sure to install this script on a fresh vps only${NC}"
+#     echo -e "${red}      to avoid problems when installing${NC}"
+#     sleep 5
+#     exit 1
+# else
+mkdir /etc/v2ray
+# fi
 mkdir /var/lib/premium-script;
 echo -e ""
 echo -e "\e[1;104m==========================================================\e[0m"
